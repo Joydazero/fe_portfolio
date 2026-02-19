@@ -1,21 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
+import ozadminImg from "../assets/imgs/common/ozadmin_thumb.jpg"
+import publisherImg from "../assets/imgs/common/webp_thumb.jpg"
 const projects = [
     {
         title: "웹퍼블리셔 프로젝트",
         category: "Web Publishing",
         description: "웹 표준과 접근성을 준수한 퍼블리싱 프로젝트 모음입니다.",
         link: "/projects/publisher",
-        img: "/src/assets/imgs/common/webp_thumb.jpg"
+        img: publisherImg
     },
     {
         title: "[Portfolio]StudyHub Admin",
         category: "FE DEV",
         description: ["혼자 공부하기 어려운 사람들이 함께 스터디를 만들고 운영할 수 있는 StudyHub 서비스의 운영 정보를 관리하는 내부 관리자(Admin) 페이지", "React, TypeScript, Tailwind CSS v4"],
         link: "https://oz-admin.vercel.app/",
-        img: "/src/assets/imgs/common/ozadmin_thumb.jpg"
+        img: ozadminImg
     },
     // {
     //     title: "E-Commerce Concept",
