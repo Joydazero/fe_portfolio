@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Editor from '@monaco-editor/react';
-import { Play, RotateCcw, Terminal, Trash2, Code2, Download, Copy, Check, FileText } from 'lucide-react';
+import { Play, RotateCcw, Terminal, Trash2, Code2, Copy, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const CodeTestPage = () => {
