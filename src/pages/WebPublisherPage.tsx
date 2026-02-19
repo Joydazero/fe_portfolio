@@ -1,6 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import trafficSystemImg from "../assets/imgs/project/y_2024_trafficsystem.jpg";
+import keyangImg from "../assets/imgs/project/keyang.jpg";
+import museumImg from "../assets/imgs/project/museumgo.jpg";
+import dwshopImg from "../assets/imgs/project/dwshop.jpg";
+import cellmedImg from "../assets/imgs/project/cellmed.jpg";
+import lsmtronImg from "../assets/imgs/project/lsmtron.jpg";
+import nextmomImg from "../assets/imgs/project/nextmom.jpg";
+import kwshopImg from "../assets/imgs/project/kwshop.jpg";
+import wholeseeImg from "../assets/imgs/project/wholesee.jpg";
+import hijunguImg from "../assets/imgs/project/hijungu.jpg";
+// import guccImg from "../assets/imgs/project/gucc.png";
+// import newtreemallImg from "../assets/imgs/project/newtreemall.jpg";
+// import storyhelperImg from "../assets/imgs/project/storyhelper.jpg";
+// import velixerImg from "../assets/imgs/project/velixer.jpg";
+// import omkImg from "../assets/imgs/project/omk.jpg";
+// import jejejikImg from "../assets/imgs/project/jejejik.jpg";
+// import hanlifeImg from "../assets/imgs/project/hanlife.jpg";
 interface PublisherProject {
   title: string;
   description?: string[];
@@ -27,7 +44,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     date: "2024",
     contribution: "100%",
-    url: "/src/assets/imgs/project/y_2024_trafficsystem.jpg",
+    url: trafficSystemImg,
   },
   {
     title: "BYC",
@@ -279,7 +296,7 @@ const publisherProjects: PublisherProject[] = [
       "jQuery",
     ],
     contribution: "70%",
-    url: "/src/assets/imgs/project/keyang.jpg"
+    url: keyangImg
     //url: "https://www.keyang.co.kr/main/"
     //url: "http://www.keyang.kr/shop/main/index.php"
   },
@@ -294,7 +311,7 @@ const publisherProjects: PublisherProject[] = [
       "jQuery",
     ],
     contribution: "100%",
-    url: "/src/assets/imgs/project/museumgo.jpg"
+    url: museumImg
   },
   {
     title: "게임이용자보호센터",
@@ -308,7 +325,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "60%",
     url: "http://www.gucc.or.kr/",
-    //url: "/src/assets/imgs/project/gucc.png"
+    //url: guccImg
   },
   {
     title: "뉴트리몰",
@@ -323,7 +340,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     url: "https://newtreemall.co.kr",
-    //url: "/src/assets/imgs/project/newtreemall.jpg"
+    //url: newtreemallImg
   },
   {
     title: "대원미디어/대원샵",
@@ -338,7 +355,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     //url: "https://www.daewonshop.com",
-    url: "/src/assets/imgs/project/dwshop.jpg"
+    url: dwshopImg
   },
   {
     title: "KT Enterprise Service Portal 내부시스템 구축",
@@ -364,7 +381,7 @@ const publisherProjects: PublisherProject[] = [
       "Gabia firstmall",
     ],
     contribution: "100%",
-    url: "/src/assets/imgs/project/cellmed.jpg"
+    url: cellmedImg
   },
   {
     title: "엔씨소프트문화재단/스토리헬퍼",
@@ -377,7 +394,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     url: "https://www.ebn.co.kr/news/articleView.html?idxno=767671"
-    //url: "/src/assets/imgs/project/storyhelper.jpg"
+    //url: storyhelperImg
   },
   {
     title: "(주)청도프린팅/Revivook",
@@ -404,7 +421,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     //url: "http://lsmtronacademy.com/"
-    url: "/src/assets/imgs/project/lsmtron.jpg"
+    url: lsmtronImg
   },
   {
     title: "Agabang/NEXTMOM",
@@ -418,7 +435,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     //url: "http://www.nextmom.co.kr"
-    url: "/src/assets/imgs/project/nextmom.jpg"
+    url: nextmomImg
   },
   {
     title: "강원전자",
@@ -432,7 +449,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "60%",
     //url: "http://www.kwshop.co.kr"
-    url: "/src/assets/imgs/project/kwshop.jpg"
+    url: kwshopImg
   },
   {
     title: "에코샵홀씨(주)",
@@ -446,7 +463,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "60%",
     //url: "http://www.wholesee.com/"
-    url: "/src/assets/imgs/project/wholesee.jpg"
+    url: wholeseeImg
   },
   {
     title: "하이전구",
@@ -461,7 +478,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "부분 작업 및 유지 보수",
     //url: "http://www.hijungu.com"
-    url: "/src/assets/imgs/project/hijungu.jpg"
+    url: hijunguImg
   },
   {
     title: "천하제일사료/벨릭서몰",
@@ -476,7 +493,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     url: "http://www.velixer.co.kr"
-    //url: "/src/assets/imgs/project/velixer.jpg"
+    //url: velixerImg
   },
   {
     title: "(주)옵티칼코리아/오마켓",
@@ -491,7 +508,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     url: "http://www.opticalomarket.com/"
-    //url: "/src/assets/imgs/project/omk.jpg"
+    //url: omkImg
   },
   {
     title: "아벤트코리아/jejejik",
@@ -506,7 +523,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     url: "http://www.jejejik.com"
-    //url: "/src/assets/imgs/project/jejejik.jpg"
+    //url: jejejikImg
   },
   {
     title: "(주)한생연",
@@ -520,7 +537,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     url: "http://hanlife.kr/"
-    //url: "/src/assets/imgs/project/hanlife.jpg"
+    //url: hanlifeImg
   },
   {
     title: "(주)ASSA ABLOY KOREA/게이트맨",
@@ -532,7 +549,7 @@ const publisherProjects: PublisherProject[] = [
       "jQuery",
     ],
     contribution: "50%",
-    //url: "/src/assets/imgs/project/hanlife.jpg"
+    //url: hanlifeImg
   },
   {
     title: "리프가구",
