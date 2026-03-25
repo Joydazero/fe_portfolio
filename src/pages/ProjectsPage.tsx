@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import ozadminImg from "../assets/imgs/common/ozadmin_thumb.jpg"
 import publisherImg from "../assets/imgs/common/webp_thumb.jpg"
+import objectMainImg from "../assets/imgs/common/obstore_main.png"
+import objectFigmaImg from "../assets/imgs/common/obstore_figma.webp"
 const projects = [
     {
         title: "웹퍼블리셔 프로젝트",
@@ -12,12 +14,28 @@ const projects = [
         img: publisherImg
     },
     {
-        title: "[Portfolio]StudyHub Admin",
+        title: "StudyHub Admin",
         category: "FE DEV",
         description: ["혼자 공부하기 어려운 사람들이 함께 스터디를 만들고 운영할 수 있는 StudyHub 서비스의 운영 정보를 관리하는 내부 관리자(Admin) 페이지", "React, TypeScript, Tailwind CSS v4"],
         link: "https://oz-admin.vercel.app/",
         img: ozadminImg
     },
+    {
+        title:"OBStore",
+        category:"FE DEV",
+        description:["OBStore project video"],
+        link: "https://youtu.be/m4PqPVhnWGA?si=f6D29IVQlkhOPvaG",
+        img: objectMainImg
+        
+    },
+     {
+        title:"OBStore",
+        category:"FE Doc/Design",
+        description:["OBStore figma"],
+        link: "https://www.figma.com/design/PJeWXcM7QbcmTgC0gOsw27/%EA%B3%B5%ED%86%B5-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=2093-32241&t=7OMcAWDRA9xqXYkU-1",
+        img: objectFigmaImg
+    }
+
     // {
     //     title: "E-Commerce Concept",
     //     category: "UI/UX Design",
