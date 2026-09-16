@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import trafficSystemImg from "../assets/imgs/project/y_2024_trafficsystem.jpg";
 import keyangImg from "../assets/imgs/project/keyang.jpg";
 import museumImg from "../assets/imgs/project/museumgo.jpg";
@@ -27,6 +27,30 @@ interface PublisherProject {
   url?: string;
 }
 const publisherProjects: PublisherProject[] = [
+  {
+    title: "[보안]KB 금융권 통합 내부 시스템 구축·고도화",
+    description: [
+      "UI 인터랙션 구현 : 금융권 내부 업무 시스템의 발송정책관리, 통계 대시보드, 캘린더, 시나리오 등록/수정/조회, 공통 UI 등을 구축·고도화했습니다. 레거시 JSP/jQuery 환경에서 동적으로 생성되는 UI와 복잡한 상태 변화가 많은 화면을 중심으로 인터랙션을 구현하고, 반복되는 기능은 공통 스크립트로 모듈화했습니다.",
+      "* 발송정책관리 시나리오 UI 구축\n  - 스타뱅킹, 카카오톡, LMS, SMS, DM 등 다중 발송 채널 UI 구현.\n  - 채널을 차수별 영역으로 배치하는 Drag & Drop 인터랙션 구현",
+      "* GNB / 다단 메뉴 / Tooltip\n  - 3Depth·4Depth 메뉴 펼침/접힘 동작 구현\n  - 메뉴 상태에 따른 active/open 클래스 제어\n  - Tooltip 노출 및 위치 처리\n  - aria-expanded, aria-describedby, aria-hidden 등 접근성 상태 동기화",
+      "* Modal / Layer Popup\n  - dimmed layer 기반 공통 팝업 UI 구현",
+      "* 공통 UI 모듈화\n  - 공통 UI를 모듈화하여 반복되는 기능을 재사용 가능하도록 구현",
+    ],
+    tech: [
+      "JSP",
+      "HTML5",
+      "CSS3",
+      "js",
+      "jQuery 1.12.4",
+      "Eclipse",
+      "Highcharts 5.0.2",
+      "Figma",
+      "FullCalendar",
+    ],
+    date: "2026.07~2026.09(Freelance)",
+    contribution: "100%",
+    url: trafficSystemImg,
+  },
   {
     title: "[보안]교통예보시스템 기능개선",
     description: [
@@ -241,7 +265,7 @@ const publisherProjects: PublisherProject[] = [
       "godo Solution Tuning",
     ],
     contribution: "부분 작업 및 유지 보수",
-    url: "https://www.bizpanchok.co.kr/"
+    url: "https://www.bizpanchok.co.kr/",
   },
   {
     title: "일상건강 매거진",
@@ -255,7 +279,7 @@ const publisherProjects: PublisherProject[] = [
       "godo Solution Tuning",
     ],
     contribution: "부분 작업 및 유지 보수",
-    url: "https://www.everydayhealth.co.kr/magazine/"
+    url: "https://www.everydayhealth.co.kr/magazine/",
   },
   {
     title: "듀코몰",
@@ -269,60 +293,36 @@ const publisherProjects: PublisherProject[] = [
       "godo Solution Tuning",
     ],
     contribution: "부분 작업 및 유지 보수, 프로모션 이벤트 작업",
-    url: "https://www.dukomall.com/"
+    url: "https://www.dukomall.com/",
   },
   {
     title: "TJ미디어(주)/리얼마스터몰",
     description: ["대한민국 반주기 업계 대표 브랜드 TJ미디어 스토어"],
-    tech: [
-      "반응형",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["반응형", "HTML5", "CSS3", "js", "jQuery"],
     date: "2014~2019",
     contribution: "70%",
-    url: "https://www.realmastermall.com/index.asp"
+    url: "https://www.realmastermall.com/index.asp",
   },
   {
     title: "(주)계양전기",
     description: ["Global Mechatronics Company Site"],
-    tech: [
-      "반응형",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["반응형", "HTML5", "CSS3", "js", "jQuery"],
     contribution: "70%",
-    url: keyangImg
+    url: keyangImg,
     //url: "https://www.keyang.co.kr/main/"
     //url: "http://www.keyang.kr/shop/main/index.php"
   },
   {
     title: "국립중앙박물관",
     description: ["국립중앙박물관 스토어"],
-    tech: [
-      "PC/Mobile Shopping mall",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["PC/Mobile Shopping mall", "HTML5", "CSS3", "js", "jQuery"],
     contribution: "100%",
-    url: museumImg
+    url: museumImg,
   },
   {
     title: "게임이용자보호센터",
     description: ["게임이용자보호센터"],
-    tech: [
-      "PC",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["PC", "HTML5", "CSS3", "js", "jQuery"],
     contribution: "60%",
     url: "http://www.gucc.or.kr/",
     //url: guccImg
@@ -345,28 +345,15 @@ const publisherProjects: PublisherProject[] = [
   {
     title: "대원미디어/대원샵",
     description: ["건강기능식품 전문몰"],
-    tech: [
-      "PC Web",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-      "godo Solution Tuning",
-    ],
+    tech: ["PC Web", "HTML5", "CSS3", "js", "jQuery", "godo Solution Tuning"],
     contribution: "100%",
     //url: "https://www.daewonshop.com",
-    url: dwshopImg
+    url: dwshopImg,
   },
   {
     title: "KT Enterprise Service Portal 내부시스템 구축",
     description: ["내부 System Dev"],
-    tech: [
-      "PC Web",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["PC Web", "HTML5", "CSS3", "js", "jQuery"],
     contribution: "100%",
     url: "",
   },
@@ -381,19 +368,13 @@ const publisherProjects: PublisherProject[] = [
       "Gabia firstmall",
     ],
     contribution: "100%",
-    url: cellmedImg
+    url: cellmedImg,
   },
   {
     title: "엔씨소프트문화재단/스토리헬퍼",
-    tech: [
-      "PC Web",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["PC Web", "HTML5", "CSS3", "js", "jQuery"],
     contribution: "100%",
-    url: "https://www.ebn.co.kr/news/articleView.html?idxno=767671"
+    url: "https://www.ebn.co.kr/news/articleView.html?idxno=767671",
     //url: storyhelperImg
   },
   {
@@ -404,24 +385,17 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "100%",
-    url: "http://www.revivook.co.kr/"
+    url: "http://www.revivook.co.kr/",
   },
   {
     title: "LS그룹 / LS 엠트론 기술 교육 기관",
-    tech: [
-      "IR Web",
-      "반응형웹",
-      "HTML5",
-      "CSS3",
-      "js",
-      "jQuery",
-    ],
+    tech: ["IR Web", "반응형웹", "HTML5", "CSS3", "js", "jQuery"],
     contribution: "100%",
     //url: "http://lsmtronacademy.com/"
-    url: lsmtronImg
+    url: lsmtronImg,
   },
   {
     title: "Agabang/NEXTMOM",
@@ -435,7 +409,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     contribution: "100%",
     //url: "http://www.nextmom.co.kr"
-    url: nextmomImg
+    url: nextmomImg,
   },
   {
     title: "강원전자",
@@ -445,11 +419,11 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "60%",
     //url: "http://www.kwshop.co.kr"
-    url: kwshopImg
+    url: kwshopImg,
   },
   {
     title: "에코샵홀씨(주)",
@@ -459,26 +433,28 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "60%",
     //url: "http://www.wholesee.com/"
-    url: wholeseeImg
+    url: wholeseeImg,
   },
   {
     title: "하이전구",
-    description: ["대한민국에서 사용하는 모든 전구를(10,000여개) 판매, 유통 BRAND"],
+    description: [
+      "대한민국에서 사용하는 모든 전구를(10,000여개) 판매, 유통 BRAND",
+    ],
     tech: [
       "PC/Mobile Shopping mall",
       "HTML5",
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "부분 작업 및 유지 보수",
     //url: "http://www.hijungu.com"
-    url: hijunguImg
+    url: hijunguImg,
   },
   {
     title: "천하제일사료/벨릭서몰",
@@ -489,10 +465,10 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "100%",
-    url: "http://www.velixer.co.kr"
+    url: "http://www.velixer.co.kr",
     //url: velixerImg
   },
   {
@@ -504,10 +480,10 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "원데이넷 Solution"
+      "원데이넷 Solution",
     ],
     contribution: "100%",
-    url: "http://www.opticalomarket.com/"
+    url: "http://www.opticalomarket.com/",
     //url: omkImg
   },
   {
@@ -519,10 +495,10 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "100%",
-    url: "http://www.jejejik.com"
+    url: "http://www.jejejik.com",
     //url: jejejikImg
   },
   {
@@ -533,10 +509,10 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "100%",
-    url: "http://hanlife.kr/"
+    url: "http://hanlife.kr/",
     //url: hanlifeImg
   },
   {
@@ -559,7 +535,7 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "70%",
     //url: "http://lifoa.co.kr/"
@@ -572,7 +548,7 @@ const publisherProjects: PublisherProject[] = [
       "CSS3",
       "js",
       "jQuery",
-      "godo Solution Tuning"
+      "godo Solution Tuning",
     ],
     contribution: "100%",
     //url: "http://hanulj.com/"
@@ -591,9 +567,6 @@ const publisherProjects: PublisherProject[] = [
     //url: "http://www.greenhanwoo.com/"
   },
 ];
-
-
-
 
 const WebPublisherPage: React.FC = () => {
   return (
@@ -630,8 +603,8 @@ const WebPublisherPage: React.FC = () => {
             viewport={{ once: false, margin: "-10%" }}
             transition={{
               duration: 0.4,
-              delay: index % 5 * 0.02,
-              ease: "easeOut"
+              delay: (index % 5) * 0.02,
+              ease: "easeOut",
             }}
             className="group border-b border-gray-100 pb-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8"
           >
@@ -643,7 +616,10 @@ const WebPublisherPage: React.FC = () => {
                 {project.title}
               </h2>
               {project.description?.map((d) => (
-                <p className="text-gray-500 text-lg mb-6 max-w-2xl" key={d}>
+                <p
+                  className="text-gray-500 text-lg mb-6 max-w-2xl whitespace-pre-wrap"
+                  key={d}
+                >
                   {d}
                 </p>
               ))}

@@ -1,20 +1,23 @@
-import { useEffect } from 'react';
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import Navbar from './components/common/Navbar';
-import MainPage from './pages/MainPage';
-import IntroPage from './pages/IntroPage';
-import ProjectsPage from './pages/ProjectsPage';
-import GuestbookPage from './pages/GuestbookPage';
-import WebPublisherPage from './pages/WebPublisherPage';
-import RefPracticePage from './pages/RefPracticePage';
-import CodeTestPage from './pages/CodeTestPage';
+import { useEffect } from "react";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import Navbar from "./components/common/Navbar";
+import MainPage from "./pages/MainPage";
+import IntroPage from "./pages/IntroPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import GuestbookPage from "./pages/GuestbookPage";
+import WebPublisherPage from "./pages/WebPublisherPage";
+import RefPracticePage from "./pages/RefPracticePage";
+import CodeTestPage from "./pages/CodeTestPage";
 
 const queryClient = new QueryClient();
 
 const Layout = () => {
   useEffect(() => {
-    console.log('HTML ClassList:', document.documentElement.classList.toString());
+    console.log(
+      "HTML ClassList:",
+      document.documentElement.classList.toString(),
+    );
   }, []);
 
   return (
@@ -29,16 +32,16 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Layout />,
     children: [
-      { path: '/', element: <MainPage /> },
-      { path: '/about', element: <IntroPage /> },
-      { path: '/projects', element: <ProjectsPage /> },
-      { path: '/projects/publisher', element: <WebPublisherPage /> },
-      { path: '/practice/ref', element: <RefPracticePage /> },
-      { path: '/practice/code', element: <CodeTestPage /> },
-      { path: '/guestbook', element: <GuestbookPage /> },
+      { path: "/", element: <MainPage /> },
+      { path: "/about", element: <IntroPage /> },
+      { path: "/projects", element: <ProjectsPage /> },
+      { path: "/projects/publisher", element: <WebPublisherPage /> },
+      { path: "/practice/ref", element: <RefPracticePage /> },
+      { path: "/practice/code", element: <CodeTestPage /> },
+      { path: "/guestbook", element: <GuestbookPage /> },
     ],
   },
 ]);
