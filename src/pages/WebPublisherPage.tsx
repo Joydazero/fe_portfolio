@@ -11,6 +11,7 @@ import nextmomImg from "../assets/imgs/project/nextmom.jpg";
 import kwshopImg from "../assets/imgs/project/kwshop.jpg";
 import wholeseeImg from "../assets/imgs/project/wholesee.jpg";
 import hijunguImg from "../assets/imgs/project/hijungu.jpg";
+import kbProjectImg from "../assets/imgs/project/project_kb.png";
 // import guccImg from "../assets/imgs/project/gucc.png";
 // import newtreemallImg from "../assets/imgs/project/newtreemall.jpg";
 // import storyhelperImg from "../assets/imgs/project/storyhelper.jpg";
@@ -49,7 +50,7 @@ const publisherProjects: PublisherProject[] = [
     ],
     date: "2026.07~2026.09(Freelance)",
     contribution: "100%",
-    url: trafficSystemImg,
+    url: kbProjectImg,
   },
   {
     title: "[보안]교통예보시스템 기능개선",
